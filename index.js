@@ -19,7 +19,8 @@ app.get('/conta/cadastro/:id', (req, res) => {
   const id = req.params.id;
   const code = req.query.code;
   const state = req.query.state;
-  res.redirect(`https://graph.facebook.com/v3.3/oauth/access_token?client_id=${id}&redirect_uri=https://localhost:3000/conta&state=${state}&client_secret=${config.appSecretKey}&code=${code}`)
+  console.log(`https://graph.facebook.com/v3.3/oauth/access_token?client_id=${id}&redirect_uri=https://localhost:3000/conta/cadastro/${id}&state=${state}&client_secret=${config.appSecretKey}&code=${code}`)
+  res.redirect(`https://graph.facebook.com/v3.3/oauth/access_token?client_id=${id}&redirect_uri=https://localhost:3000/conta/cadastro/${id}&state=${state}&client_secret=${config.appSecretKey}&code=${code}`)
 });
 
 app.listen(3000, () => console.log('Aplicação pronta e usando a porta 3000.'));
