@@ -1,0 +1,3 @@
+exports.appId = '2312895268961756';
+exports.appSecretKey = '43c503d28af003fa49054bfb72376c30';
+exports.accessToken = 'EAAg3kOTovdwBAHZC0zgRk19hXNvMUcpWnMdbBJwQlSSElw0Q4CwPLwiG2WYg71q3drA1U4YLZBAMopZCilCden0s1no3sZBTtBqfIZBZAF5rHpAmsfSf9pnvy5muddDHyaZAsw5be8Mw9PDUdf8BEiYzg01fq13J7yO2ym8RIPv9AZDZD';
